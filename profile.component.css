@@ -1,0 +1,79 @@
+.outer{
+    width: 250px;
+    
+    position: relative;
+    float: left;
+    z-index: 1001;
+}
+.profile_img{
+    width: 200px;
+    height: 200px;
+   
+    border-radius: 100px;
+    background-color: antiquewhite;
+
+}
+.name{
+    margin-left: 2em;
+    color: solid black;
+    font-weight:bold;
+    font-size: large;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    z-index:1;
+}
+.inside{
+    width: 230px;
+    height: 230px;
+    
+    margin-top: 5%;
+    font-size: large;
+    font-style: italic;
+    padding-top: 0%; 
+    font-weight: bold; 
+    position: relative;
+    z-index:2; 
+    color: blue;
+}
+.posted{
+    width: 400px;
+    height: 350px;
+    padding: 3%;
+    float: left;
+    position: relative;
+    
+}
+#edit{
+    
+    font-size: 1em;
+    margin-left: 2em;
+    position: relative;
+}
+.post{
+    margin-right: 250px;
+    margin-top: 0%;
+    position: relative;
+    z-index: 1;
+}
+.back{
+    font-size: 2em;
+    margin-right: 20em;
+    position: absolute;
+    z-index: 2;  
+    align-self: flex-end;
+    bottom: -26em;  
+}
+.white_content {
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    border: 16px rgb(0, 255, 85);
+    background-color: lightgrey;
+    z-index: 1002;
+    overflow: auto;
+  }
+  
